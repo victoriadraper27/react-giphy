@@ -3,7 +3,7 @@ import '../assets/stylesheets/application.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Hello from './components/hello';
+// import Hello from './components/hello';
 
 import App from './components/app';
 
@@ -23,10 +23,15 @@ import App from './components/app';
 //   }
 // }
 
+// const root = document.querySelector("#root");
+// ReactDOM.render(
+//     <div>
+//       <Hello name="Victoria" />
+//       <Hello name="Jenn" />
+//       <Hello name="Harry" />
+//     </div>, root);
+
 const root = document.querySelector("#root");
-ReactDOM.render(
-    <div>
-      <Hello name="Victoria" />
-      <Hello name="Jenn" />
-      <Hello name="Harry" />
-    </div>, root);
+if (root) {
+  ReactDOM.render(<App />, root);
+}

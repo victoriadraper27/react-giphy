@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Gif extends Component {
-  handleClaick = () => {
+  handleClick = () => {
     const { gifId, changeSelectedGif } = this.props;
     changeSelectedGif(gifId);
   }
