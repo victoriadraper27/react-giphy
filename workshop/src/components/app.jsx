@@ -11,7 +11,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       selectedGifId: 'Y0b5YfI4zFWaGKbMQ2',
-      gifIdList: ["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"]
+      gifIdList: ["3o7TKTxeQEKMD1POUg", "4T7e4DmcrP9du", "2yuRoYBGY027wAPYML", "QFSD9tGuryBHy", "B2HqyXi7r6j9W9cCG2", "4dtKSU1d2Jo5i", "wHKRCl4HBSLHq", "5tw4zQVwKT5OwTTdry", "LPQ943m8yMcpy", "1TmrEqADCCCS4", "Y4pAQv58ETJgRwoLxj", "mCRJDo24UvJMA"]
     };
     this.fetchGiphy("puppy");
   }
