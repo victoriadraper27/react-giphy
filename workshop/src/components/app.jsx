@@ -10,7 +10,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedGifId: 'WuGSL4LFUMQU',
+      selectedGifId: 'Y0b5YfI4zFWaGKbMQ2',
       gifIdList: ["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"]
     };
     this.fetchGiphy("puppy");

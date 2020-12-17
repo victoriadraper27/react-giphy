@@ -2,7 +2,7 @@
 
 const gifIdList = ["WuGSL4LFUMQU", "HuVCpmfKheI2Q", "u6uAu3yyDNqRq"];
 
-const giphy = require('giphy-api')('xfTDdSQJBS6269cWPCyanBbZIBKiyHoQ');
+const giphy = require('giphy-api')('VMy3Db3SeBFIsPZud0nh98bXzmDgT3Eq');
 
 giphy.search({
   q: keyword,
@@ -24,3 +24,4 @@ https://media.giphy.com/media/5ntdy5Ban1dIY/giphy.gif
 https://media.giphy.com/media/ZG719ozZxGuThHBckn/giphy.gif
 https://media.giphy.com/media/TilmLMmWrRYYHjLfub/giphy.gif
 https://media.giphy.com/media/kHrKpJiCbOmkWD4xT9/giphy.gif
+https://media.giphy.com/media/Y0b5YfI4zFWaGKbMQ2/giphy.gif
