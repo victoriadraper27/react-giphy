@@ -13,7 +13,7 @@ import App from './components/app';
 //   return <h1>{ `Hello ${name}!` }</h1>
 // }
 
-    // move to hello file
+// move to hello file
 // class Hello extends React.Component {
 //   render() {
 //     const { name } = this.props;

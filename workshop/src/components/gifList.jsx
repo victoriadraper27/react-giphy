@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Gif from './gif';
 
+// eslint-disable-next-line react/prefer-stateless-function
 export default class GifList extends Component {
   render() {
     const { gifIdList, changeSelectedGif } = this.props;
